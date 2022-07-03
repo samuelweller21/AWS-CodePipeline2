@@ -12,7 +12,7 @@ phases:
   build:
     commands:
       - mvn package
-      - mv target/spring-boot-todo-rest-api-h2-aws-codepipeline-0.0.1-SNAPSHOT.war spring-boot-todo-rest-api-h2-aws-codepipeline-0.0.1-SNAPSHOT.war
+      - mv target/03-spring-boot-web-application-h2-0.0.1-SNAPSHOT.war 03-spring-boot-web-application-h2-0.0.1-SNAPSHOT.war
       - echo build
   post_build:
     commands:
@@ -20,4 +20,4 @@ phases:
 
 artifacts:
   files:
-    - spring-boot-todo-rest-api-h2-aws-codepipeline-0.0.1-SNAPSHOT.war
+    - 03-spring-boot-web-application-h2-0.0.1-SNAPSHOT.war
