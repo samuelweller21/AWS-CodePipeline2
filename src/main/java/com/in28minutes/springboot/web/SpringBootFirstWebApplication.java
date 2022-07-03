@@ -6,6 +6,8 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.ComponentScan;
 
+//Change
+
 @SpringBootApplication
 @ComponentScan("com.in28minutes.springboot.web")
 public class SpringBootFirstWebApplication extends SpringBootServletInitializer { // AWS
